@@ -1,0 +1,108 @@
+/* centering navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 73, 73);
+
+}
+
+.paddingTop {
+    padding-top: 30pt;
+    
+}
+
+#paddingleft {
+    padding-left: 40pt;
+}
+
+#searchArea {
+    background-color: rgba(223, 223, 223, 0.698);
+    display: flex;
+    align-items: flex-start;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+input {
+    resize: none;
+    
+}
+
+#today {
+    border-style: solid;
+    border-color: rgb(185, 181, 181);
+    border-width: 1pt;
+    border-radius: 2pt;
+    padding-bottom: 20pt;
+}
+
+.lowUV {
+    border-style: solid;
+    border-radius: 2pt;
+    border-color: lightgreen;
+    background-color: lightgreen;
+}
+
+.moderateUV {
+    border-style: solid;
+    border-radius: 2pt;
+    border-color: lightyellow;
+    background-color: lightyellow;
+}
+
+.highUV {
+    border-style: solid;
+    border-radius: 2pt;
+    border-color:rgb(224, 138, 103);
+    background-color: rgb(224, 138, 103);
+}
+
+.veryHighUV {
+    border-style: solid;
+    border-radius: 2pt;
+    border-color: rgb(255, 123, 123);
+    background-color:  rgb(255, 123, 123);
+}
+
+#current {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.biggerFont {
+    font-size: 10pt;
+    color: white;
+}
+
+.currentBigFont {
+    font-size: 15pt;
+}
+
+.fiveDayFont {
+    font-size: 13pt;
+    color: white;
+    font-weight: bold;
+}
+
+.fiveDayBackground {
+    border-radius: 2pt;
+    border-style: solid;
+    border-color: rgba(33, 157, 228, 0.883);
+    background-color: rgba(33, 157, 228, 0.883);
+    margin: 5pt;
+    
+    
+}
+
+#fiveDay {
+    margin-top: 10pt;
+}
+
+.cityList {
+    margin-top: 6pt;
+}
